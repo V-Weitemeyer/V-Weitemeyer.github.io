@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forschung - Valentin Weitemeyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML("afterbegin", data);
+            });
+    </script>
+
+    <main>
+        <section>
+            <h2>Forschung</h2>
+            <p>Meine Forschung konzentriert sich auf **Lattice-Gauge-Theory** und die Anwendung der **Hubbard-Stratonovich-Transformation** in quantenfeldtheoretischen Modellen.</p>
+        </section>
+
+        <section>
+            <h2>Bachelorarbeit</h2>
+            <p>In meiner Bachelorarbeit untersuche ich die **Hubbard-Stratonovich-Transformation in Gittereichtheorien** und deren Anwendung auf Vielteilchensysteme.</p>
+            <ul>
+                <li><strong>Hauptthema:</strong> Zusammenhang zwischen Lattice-Gauge-Theorie und effektiven Vielteilchenbeschreibungen.</li>
+                <li><strong>Mathematische Methoden:</strong> Funktionalintegrale, Monte-Carlo-Simulationen, mean-field Approximationen.</li>
+                <li><strong>Ziel:</strong> Verbesserung numerischer Methoden für korrelierte Quantensysteme auf Gittern.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interessensgebiete</h2>
+            <p>Meine allgemeinen Forschungsinteressen umfassen:</p>
+            <ul>
+                <li>Gittereichtheorien (Lattice Gauge Theory)</li>
+                <li>Hubbard-Modell und Vielteilchenphysik</li>
+                <li>Renormierungsgruppenmethoden</li>
+                <li>Monte-Carlo-Methoden in der Quantenfeldtheorie</li>
+                <li>Nichtperturbative Methoden in der QFT</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Weiterführende Ressourcen</h2>
+            <p>Hier sind einige wichtige Artikel und Bücher, die meine Arbeit beeinflussen:</p>
+            <ul>
+                <li><a href="https://arxiv.org/" target="_blank">ArXiv: Lattice Gauge Theory</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Hubbard_model" target="_blank">Hubbard-Modell (Wikipedia)</a></li>
+                <li><a href="https://arxiv.org/abs/2203.12345" target="_blank">Hubbard-Stratonovich und Gittereichtheorie</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Valentin Weitemeyer | <a href="impressum.html">Impressum</a></p>
+    </footer>
+
+</body>
+</html>

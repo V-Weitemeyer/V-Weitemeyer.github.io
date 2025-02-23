@@ -8,18 +8,13 @@
 </head>
 <body>
 
-    <header>
-        <h1>Über mich</h1>
-        <nav>
-            <ul>
-                <li><a href="http://vww-physics.me">Home</a></li>
-                <li><a href="about">Über mich</a></li>
-                <li><a href="research">Forschung</a></li>
-                <li><a href="lab-reports">Laborberichte</a></li>
-                <li><a href="impressum">Impressum</a></li>
-            </ul>
-        </nav>
-    </header>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML("afterbegin", data);
+            });
+    </script>
 
     <main>
         <section>
