@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1E231E; /* Dunkler Hintergrund */
-    color: #D4D4D4; /* Helle Schrift */
+    color: #AFB4AF; /* Helle Schrift */
 }
 
 /* Header */
 header {
     background: #232824; /* Dunkler Header, leicht heller als der Body */
-    color: #D4D4D4;
+    color: #AFB4AF;
     text-align: center;
     padding: 15px;
     border-bottom: 2px solid #262B26; /* Dezente Trennung */
