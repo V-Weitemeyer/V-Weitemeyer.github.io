@@ -1,21 +1,28 @@
+/* Grundlegendes Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f5f1e8; /* Warmer Beige-Ton */
+    color: #4a4a4a; /* Dunkles Grau für bessere Lesbarkeit */
+    line-height: 1.6;
 }
 
+/* Header-Bereich */
 header {
-    background: #00509E;
-    color: white;
+    background: #e3dac9; /* Weiches Beige */
+    color: #4a4a4a;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    border-bottom: 2px solid #d5c4a1; /* Etwas dunkleres Beige als Akzent */
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
+    margin: 0;
 }
 
 nav ul li {
@@ -24,21 +31,32 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #d5c4a1; /* Dezente Hover-Farbe */
     text-decoration: none;
 }
 
+/* Hauptinhalt */
 main {
-    max-width: 800px;
-    margin: auto;
+    max-width: 700px;
+    margin: 20px auto;
     padding: 20px;
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background: #fcf8f3; /* Sehr helles Beige für Kontrast */
+    border: 1px solid #d5c4a1;
+    border-radius: 5px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background: #ddd;
-    margin-top: 20px;
+    background: #e3dac9;
+    border-top: 2px solid #d5c4a1;
+    font-size: 14px;
 }
