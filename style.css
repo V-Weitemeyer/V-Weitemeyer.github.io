@@ -43,7 +43,7 @@ nav ul li a:hover {
 main {
     max-width: 800px;
     margin: 20px auto;
-    width: calc(100% - 10px); /* 100% - 5px Rand */
+    /* width: calc(100% - 10px); /* 100% - 5px Rand */
     padding: 20px;
     background: #232824; /* Dunkler Content-Background */
     border: 1px solid #262B26;
