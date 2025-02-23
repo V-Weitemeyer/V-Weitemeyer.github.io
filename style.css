@@ -44,6 +44,8 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    padding-left: 5px;  /* Mindestabstand links */
+    padding-right: 5px; /* Mindestabstand rechts */
     background: #252526; /* Dunkler Content-Background */
     border: 1px solid #3C3C3C;
     border-radius: 5px;
