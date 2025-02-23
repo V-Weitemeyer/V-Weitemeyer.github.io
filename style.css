@@ -1,20 +1,19 @@
-/* Grundlegendes Styling */
+/* Allgemeine Seiteneinstellungen */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Courier New", monospace;
+    background-color: #1E1E1E; /* Dunkler VS Code Hintergrund */
+    color: #D4D4D4; /* Standard-Textfarbe */
     margin: 0;
     padding: 0;
-    background-color: #f5f1e8; /* Warmer Beige-Ton */
-    color: #4a4a4a; /* Dunkles Grau für bessere Lesbarkeit */
-    line-height: 1.6;
 }
 
-/* Header-Bereich */
+/* Header */
 header {
-    background: #e3dac9; /* Weiches Beige */
-    color: #4a4a4a;
+    background: #252526; /* Dunkelgrau */
+    color: #D4D4D4;
     text-align: center;
     padding: 15px;
-    border-bottom: 2px solid #d5c4a1; /* Etwas dunkleres Beige als Akzent */
+    border-bottom: 2px solid #3C3C3C;
 }
 
 /* Navigation */
@@ -31,24 +30,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4a4a4a;
+    color: #569CD6; /* VS Code Blauton */
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 5px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: #d5c4a1; /* Dezente Hover-Farbe */
-    text-decoration: none;
+    color: #9CDCFE; /* Hellere Blauton beim Hover */
 }
 
 /* Hauptinhalt */
 main {
-    max-width: 700px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fcf8f3; /* Sehr helles Beige für Kontrast */
-    border: 1px solid #d5c4a1;
+    background: #252526;
+    border: 1px solid #3C3C3C;
     border-radius: 5px;
 }
 
@@ -56,7 +54,42 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background: #e3dac9;
-    border-top: 2px solid #d5c4a1;
+    background: #252526;
+    border-top: 2px solid #3C3C3C;
     font-size: 14px;
+    color: #808080;
+}
+
+/* Links */
+a {
+    color: #569CD6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9CDCFE;
+}
+
+/* Code-Blöcke */
+pre {
+    background: #1E1E1E;
+    color: #D4D4D4;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #569CD6;
+}
+
+/* Buttons */
+button {
+    background: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005F9E;
 }

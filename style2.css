@@ -1,0 +1,108 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E; /* Dunkler Hintergrund */
+    color: #D4D4D4; /* Helle Schrift */
+}
+
+/* Header */
+header {
+    background: #252526; /* Dunkler Header, leicht heller als der Body */
+    color: #D4D4D4;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #3C3C3C; /* Dezente Trennung */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #569CD6; /* Blaue Links wie in VS Code */
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #CE9178; /* Orange Hover-Farbe */
+}
+
+/* Hauptinhalt */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #252526; /* Dunkler Content-Background */
+    border: 1px solid #3C3C3C;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #252526;
+    border-top: 2px solid #3C3C3C;
+    font-size: 14px;
+}
+
+/* Links */
+a {
+    color: #569CD6; /* Blautöne aus VS Code */
+}
+
+a:hover {
+    color: #CE9178; /* Sanfte Orange-Töne */
+}
+
+/* Code-Block (Optional für Inline-Code) */
+code {
+    background: #1E1E1E;
+    color: #D4D4D4;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+/* Tabellen-Stil */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #252526;
+    color: #D4D4D4;
+}
+
+th, td {
+    border: 1px solid #3C3C3C;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #303031;
+}
+
+/* Buttons */
+button {
+    background-color: #569CD6; /* Blauton aus VS Code */
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #CE9178; /* Orange Hover */
+}
